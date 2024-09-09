@@ -5,16 +5,33 @@ import './index.css'
 import Home from './home';
 
 import { ClerkProvider } from '@clerk/clerk-react'
+import Profile from './profile';
+import AddListing from './add-listing';
 
 
+// routes section
 
 const router=createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
+  },
+  {
+    path: "/profile",
+    element: <Profile/>,
+  },
+  {
+    path: "/add-listing",
+    element: <AddListing/>,
   }
+
   
 ]);
+
+
+
+
+
 
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY

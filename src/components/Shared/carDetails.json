@@ -1,0 +1,234 @@
+{
+  "carDetails": [
+    {
+      "label": "Listing Title",
+      "name": "listingTitle",
+      "fieldType": "text",
+      "required": true,
+      "column": "2",
+      "icon": "FaClipboardList"
+    },
+    {
+      "label": "Tagline",
+      "name": "tagline",
+      "fieldType": "text",
+      "column": "2",
+      "icon": "FaCar"
+    },
+    {
+      "label": "Original Price",
+      "name": "originalPrice",
+      "fieldType": "text",
+      "column": "1",
+      "icon": "FaCarSide"
+    },
+    {
+      "label": "Selling Price",
+      "name": "sellingPrice",
+      "fieldType": "text",
+      "required": true,
+      "column": "1",
+      "icon": "FaCarSide"
+    },
+    {
+      "label": "Category",
+      "name": "category",
+      "fieldType": "dropdown",
+      "options": [
+        "Toyota Corolla",
+        "Honda Civic",
+        "Ford Mustang",
+        "Tesla Model S",
+        "BMW 3 Series",
+        "Audi A4",
+        "Mercedes-Benz C-Class",
+        "Chevrolet Camaro",
+        "Nissan Altima",
+        "Hyundai Elantra",
+        "Kia Optima",
+        "Volkswagen Golf",
+        "Subaru Impreza",
+        "Dodge Charger",
+        "Mazda CX-5",
+        "Jeep Wrangler",
+        "Lexus RX",
+        "Porsche 911",
+        "Range Rover Evoque",
+        "Volvo XC90"
+      ],
+      "required": true,
+      "column": "1",
+      "icon": "FaCalendarAlt"
+    },
+    {
+      "label": "Condition",
+      "name": "condition",
+      "fieldType": "dropdown",
+      "options": ["New", "Used", "Certified Pre-Owned"],
+      "required": true,
+      "column": "1",
+      "icon": "FaPalette"
+    },
+    {
+      "label": "Type",
+      "name": "type",
+      "fieldType": "dropdown",
+      "options": ["Electric", "Hybrid", "Petrol", "Diesel"],
+      "required": true,
+      "column": "1",
+      "icon": "FaCar"
+    },
+    {
+      "label": "Make",
+      "name": "make",
+      "fieldType": "dropdown",
+      "options": [
+        "Toyota Corolla",
+        "Honda Civic",
+        "Ford Mustang",
+        "Tesla Model S",
+        "BMW 3 Series",
+        "Audi A4",
+        "Mercedes-Benz C-Class",
+        "Chevrolet Camaro",
+        "Nissan Altima",
+        "Hyundai Elantra",
+        "Kia Optima",
+        "Volkswagen Golf",
+        "Subaru Impreza",
+        "Dodge Charger",
+        "Mazda CX-5",
+        "Jeep Wrangler",
+        "Lexus RX",
+        "Porsche 911",
+        "Range Rover Evoque",
+        "Volvo XC90"
+      ],
+      "column": "1",
+      "icon": "FaCar"
+    },
+    {
+      "label": "Model",
+      "name": "model",
+      "fieldType": "dropdown",
+      "options": [
+        "Corolla",
+        "Civic",
+        "Mustang",
+        "Model S",
+        "3 Series",
+        "A4",
+        "C-Class",
+        "Camaro",
+        "Altima",
+        "Elantra",
+        "Optima",
+        "Golf",
+        "Impreza",
+        "Charger"
+      ],
+      "column": "2",
+      "icon": "FaCar"
+    },
+    {
+      "label": "Mileage",
+      "name": "mileage",
+      "fieldType": "number",
+      "options": [
+        "Toyota Corolla",
+        "Honda Civic",
+        "Ford Mustang",
+        "Tesla Model S",
+        "BMW 3 Series",
+        "Audi A4",
+        "Mercedes-Benz C-Class",
+        "Chevrolet Camaro",
+        "Nissan Altima",
+        "Hyundai Elantra",
+        "Kia Optima",
+        "Volkswagen Golf",
+        "Subaru Impreza",
+        "Dodge Charger",
+        "Mazda CX-5",
+        "Jeep Wrangler",
+        "Lexus RX",
+        "Porsche 911",
+        "Range Rover Evoque",
+        "Volvo XC90"
+      ],
+      "required": false,
+      "column": "2",
+      "icon": "FaTachometerAlt"
+    },
+    {
+      "label": "Year",
+      "name": "year",
+      "fieldType": "number",
+      "options": ["2022", "2021", "2020", "2019", "2018", "2017"],
+      "required": true,
+      "column": "1",
+      "icon": "FaCalendar"
+    },
+    {
+      "label": "Drive Type",
+      "name": "drive_type",
+      "fieldType": "select",
+      "options": [
+        "Front-Wheel Drive",
+        "Rear-Wheel Drive",
+        "All-Wheel Drive",
+        "Four-Wheel Drive"
+      ],
+      "required": true,
+      "column": "1",
+      "icon": "FaCar"
+    },
+    {
+      "label": "Transmission",
+      "name": "transmission",
+      "fieldType": "select",
+      "options": [
+        "Automatic",
+        "Manual",
+        "Semi-Automatic",
+        "Continuously Variable"
+      ],
+      "required": true,
+      "column": "1",
+      "icon": "FaCogs"
+    },
+    {
+      "label": "Fuel Type",
+      "name": "fuel_type",
+      "fieldType": "select",
+      "options": ["Gasoline", "Diesel", "Hybrid", "Electric"],
+      "required": true,
+      "column": "1",
+      "icon": "FaGasPump"
+    },
+    {
+      "label": "Engine Size",
+      "name": "engine_size",
+      "fieldType": "select",
+      "options": [
+        "Less than 1.5L",
+        "1.5L to 2.5L",
+        "2.5L to 3.5L",
+        "More than 3.5L"
+      ],
+      "required": true,
+      "column": "1",
+      "icon": "FaCogs"
+    },
+
+    {
+      "label": "Price",
+      "name": "price",
+      "fieldType": "number",
+      "options": ["New", "Used", "Electric"],
+      "required": true,
+      "column": "1",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

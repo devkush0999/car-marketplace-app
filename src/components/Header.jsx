@@ -1,6 +1,7 @@
 import React from 'react'
 import { UserButton, useUser,  } from '@clerk/clerk-react';
 import { Button } from "@/components/ui/button"
+import { Link } from 'react-router-dom'
 
 
 
@@ -11,7 +12,7 @@ function Header() {
       <img src="/dev_logo.jpg" alt="" width={40} height={50} />
 
       <ul className='hidden md:flex gap-16'>
-        <li className='font-medium hover:scale-150 transition-all cursor-pointer'>Home</li>
+        <li className='font-medium hover:scale-150 transition-all cursor-pointer'><Link to={'/'}>Home</Link></li>
         <li className='font-medium hover:scale-150 transition-all cursor-pointer'>Search</li>
         <li className='font-medium hover:scale-150 transition-all cursor-pointer'>New</li>
         <li className='font-medium hover:scale-150 transition-all cursor-pointer'>Preowned</li>
@@ -19,9 +20,11 @@ function Header() {
       </ul>
 
       {isSignedIn ?
-        <div>
-          <UserButton />
+        <div className='flex item-center gap-5'>
+          <UserButton/>
+          <Link to={'/profile'}>
           <Button>Submit Listing</Button>
+          </Link>
         </div>
         :
         <Button>Submit Listing</Button>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Search from  './Search'
 
+
  function Hero() {
   return (
     <>
@@ -8,6 +9,8 @@ import Search from  './Search'
         <h2 className='text-lg'>Find cars for sale and for rent near you</h2>
         <h2 className='text-[60px] font-bold'>Find Your Dream Car</h2>
         <Search />
+        <img src="https://placehold.co/650x250" alt="" className='mt-10' />
+        
     </div>
     </>
   )
