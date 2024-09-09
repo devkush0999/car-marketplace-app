@@ -22,7 +22,6 @@ function DropdownField({item}) {
                     ))}
                 </SelectContent>
             </Select>
-
         </div>
     )
 }
