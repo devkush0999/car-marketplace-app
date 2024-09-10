@@ -1,0 +1,87 @@
+{
+    "features": [
+      {
+        "label": "Car Model",
+        "name": "model",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Manufacturer",
+        "name": "manufacturer",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Year",
+        "name": "year",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Engine Type",
+        "name": "engine_type",
+        "fieldType": "checkbox",
+        "options": ["Petrol", "Diesel", "Electric", "Hybrid"]
+      },
+      {
+        "label": "Color",
+        "name": "color",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Transmission",
+        "name": "transmission",
+        "fieldType": "checkbox",
+        "options": ["Manual", "Automatic"]
+      },
+      {
+        "label": "Number of Seats",
+        "name": "seats",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Fuel Efficiency (km/l)",
+        "name": "fuel_efficiency",
+        "fieldType":"checkbox"
+      },
+      {
+        "label": "Price",
+        "name": "price",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Air Conditioning",
+        "name": "air_conditioning",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Bluetooth Connectivity",
+        "name": "bluetooth",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Navigation System",
+        "name": "navigation",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Sunroof",
+        "name": "sunroof",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Cruse control",
+        "name": "cruse control",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "360 camera",
+        "name": "360camera",
+        "fieldType": "checkbox"
+      },
+      {
+        "label": "Addas",
+        "name": "Add",
+        "fieldType": "checkbox"
+      }
+    ]
+  }
+  

@@ -26,7 +26,7 @@
       "label": "Selling Price",
       "name": "sellingPrice",
       "fieldType": "text",
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaCarSide"
     },
@@ -165,7 +165,7 @@
       "name": "year",
       "fieldType": "number",
       "options": ["2022", "2021", "2020", "2019", "2018", "2017"],
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaCalendar"
     },
@@ -179,7 +179,7 @@
         "All-Wheel Drive",
         "Four-Wheel Drive"
       ],
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaCar"
     },
@@ -193,7 +193,7 @@
         "Semi-Automatic",
         "Continuously Variable"
       ],
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaCogs"
     },
@@ -202,33 +202,63 @@
       "name": "fuel_type",
       "fieldType": "select",
       "options": ["Gasoline", "Diesel", "Hybrid", "Electric"],
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaGasPump"
     },
     {
       "label": "Engine Size",
-      "name": "engine_size",
-      "fieldType": "select",
-      "options": [
-        "Less than 1.5L",
-        "1.5L to 2.5L",
-        "2.5L to 3.5L",
-        "More than 3.5L"
-      ],
-      "required": true,
+      "name": "engineSize",
+      "fieldType": "text",
+      "required": false,
       "column": "1",
       "icon": "FaCogs"
     },
+    {
+      "label": "Cylinder",
+      "name": "cylinder",
+      "fieldType": "number",
+      "column":1
+
+    },
+
 
     {
       "label": "Price",
       "name": "price",
       "fieldType": "number",
       "options": ["New", "Used", "Electric"],
-      "required": true,
+      "required": false,
       "column": "1",
       "icon": "FaDollarSign"
-    }
+    },
+    {
+      "label": "Listing Description",
+      "name": "listing_description",
+      "fieldType": "textarea",
+      "options": [],
+      "required":false,
+      "column": "1",
+      "icon": "FaDollarSign"
+    },
+    {
+      "label": "Model",
+      "name": "model",
+      "fieldType": "text",
+      "options": ["Model 1", "Model 2", "Model 3"],
+      "required": false,
+      "column": "1",
+      "icon": "FaCar"
+      },
+      {
+        "label": "Offer Type",
+        "name": "offer_type",
+        "fieldType": "dropdown",
+        "options": ["New", "Used", "Electric"],
+        "required": false,
+        "column": "1",
+        "icon": "FaDollarSign"
+        }
+
   ]
 }

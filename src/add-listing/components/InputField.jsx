@@ -1,21 +1,18 @@
 import React from 'react'
 import { Input } from "@/components/ui/input"
 // import carDetails  from '../components/Shared/carDetails.json'
-import carDetails  from '../../components/Shared/carDetails.json'
+import carDetails from '../../components/Shared/carDetails.json'
 
 
 
-function InputField({item}) {
+function InputField({ item, handleInputChange }) {
   return (
 
     <div>
-      {/* {carDetails.carDetails.map((item,index)=>( */}
-        {/* <div className="" key={index}> */}
-           <Input type={item?.fieldType} name={item?.name} required={item?.required}/>
-        {/* </div> */}
-
-      {/* ))} */}
-      
+      <Input type={item?.fieldType}
+        name={item?.name}
+        required={item?.required}
+        onChange={(e) => handleInputChange(item.name, e.target.value)} />
     </div>
   )
 }

@@ -18,7 +18,10 @@ function AddListing() {
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }))
     console.log(formData);
   };
-  const onSubmit=(e)=>
+  const onSubmit=(e)=>{
+    e.preventDefault();
+    console.log(formData);
+  }
   return (
     <div>
       <Header />
@@ -57,7 +60,7 @@ function AddListing() {
 
           {/* car images */}
           <div className="mt-10 flex justify-end">
-            <Button className='font-medium hover:scale-150 transition-all cursor-pointer' onClick={(e)=>onsubmit(e)}>Submit</Button>
+            <Button className='font-medium hover:scale-150 transition-all cursor-pointer' type="submit" onClick={(e)=>onSubmit(e)}>Submit</Button>
           </div>
 
 
