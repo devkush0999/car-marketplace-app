@@ -8,17 +8,17 @@ import {
 } from "@/components/ui/select"
 
 
-function DropdownField({item}){
+function DropdownField({ item, handleInputChange }) {
     return (
         <div>
-            <Select>
+            <Select onValueChange={(value) => handleInputChange(item.name, value)}>
                 <SelectTrigger className="w-full">
                     <SelectValue placeholder={item.label} />
                 </SelectTrigger>
                 <SelectContent>
-                    <SelectItem value="light">Light</SelectItem>
-                    {item?.options?.map((option,index)=>(
-                        <SelectItem key={index.id} value={option}>{option}</SelectItem>
+                    {/* <SelectItem value="light">Lightooooooooooooo</SelectItem> */}
+                    {item?.options?.map((option, index) => (
+                        <SelectItem key={index} value={option}>{option}</SelectItem>
                     ))}
                 </SelectContent>
             </Select>
