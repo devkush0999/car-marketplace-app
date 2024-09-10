@@ -23,7 +23,7 @@ function Header() {
         <div className='flex item-center gap-5'>
           <UserButton/>
           <Link to={'/profile'}>
-          <Button>Submit Listing</Button>
+          <Button className='font-medium hover:scale-150 transition-all cursor-pointer'   >Submit Listing</Button>
           </Link>
         </div>
         :
